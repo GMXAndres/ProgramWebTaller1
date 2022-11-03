@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body
+        {
+            background-color: beige;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #q{
+            width: 500px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="galeria.html">galeria</a></li>
+        <li><a href="index.html">index</a></li>
+    </ul>
+    <h1>Formulario de contacto</h1>
+    <form action="https://www.google.com/search" method="get" enctype="multipart/form-data">
+        <label for="q">consulta en google</label> <br>
+        <input type="text" name="q" id="q" placeholder="Escriba aca perro"/>
+        <button type="submit"> consultar </button>
+
+    </form>
+
+    <form>
+        <label for="q2">llene sus datos</label> <br>
+        <input type="text" name="usuario" id="q2" placeholder="usuario"/><br>
+        <input type="password" name="contraseña" id="q2" placeholder="contraseña"/><br>
+        <button type="submit"> ingresar </button><br>
+        <textarea id="story" name="story" rows="5" cols="33" placeholder="no me cuentes tu historia hijo">
+
+
+        </textarea><br>
+
+        <label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label><br>
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Este es mi segundo checkbox</label><br>
+    </form>
+    <h1>Registro</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="name">nombres</label><br/>
+        <input type="text" name="name" id="name"/><br/>
+        <label for="apellido">apellido</label><br>
+        <input type="text" name="apellido" id="apellido"/><br/>
+        <label for="identificacin"> identificacion</label><br/>
+        <select name="select">
+            <option value="1"> CC</option>
+            <option value="2"> TI</option>
+            <option value="3"> CE</option>
+        </select>
+        <input type="number"/><br/><br/>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
